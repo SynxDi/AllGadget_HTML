@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 64px;
+  color: #222;
+  padding-left: 80px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+.logo {
+  max-width: 250px;
+  height: auto;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+  
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #857c6d;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 25px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+  color: #000;
+}
+#navbar li a.active {
+  color: black;
+}
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+.footer{
+  color: #000;
+  font-family: "Roboto";
+  font-size: 20px;
+  display:flex;
+  column-gap: 5%;
+  justify-content:center;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 80px
+  }
+  
+  .product {
+    width: 320px;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #857c6d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .product img {
+    max-width: 200px;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    object-fit: fill;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+  }
+  
+  
